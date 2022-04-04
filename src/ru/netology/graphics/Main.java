@@ -11,11 +11,11 @@ public class Main {
     public static void main(String[] args) throws Exception {
         TextGraphicsConverter converter = new Converter();
 
-//        GServer server = new GServer(converter);
-//        server.start();
+        GServer server = new GServer(converter);
+        server.start();
 
-        String url = "https://raw.githubusercontent.com/netology-code/java-diplom/main/pics/simple-test.png";
-        String imgTxt = converter.convert(url);
-        System.out.println(imgTxt);
+//        String url = "https://i.ibb.co/6DYM05G/edu0.jpg";
+//        String imgTxt = converter.convert(url);
+//        System.out.println(imgTxt);
     }
 }
